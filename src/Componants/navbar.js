@@ -1,4 +1,5 @@
 import React from "react";
+import Football from "./Football";
 
 export default function Navbar(){
     return(
@@ -14,7 +15,7 @@ export default function Navbar(){
                         <a className="nav-link active" aria-current="page" href="#">Home</a>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link" href="#">Features</a>
+                        <a className="nav-link" href={<Football/>}>Football</a>
                     </li>
                     <li className="nav-item">
                         <a className="nav-link" href="#">Pricing</a>
