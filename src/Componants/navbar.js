@@ -15,7 +15,7 @@ export default function Navbar(){
                         <a className="nav-link active" aria-current="page" href="#">Home</a>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link" href={<Football/>}>Football</a>
+                        <a className="nav-link" href="../Football.js">Football</a>
                     </li>
                     <li className="nav-item">
                         <a className="nav-link" href="#">Pricing</a>
