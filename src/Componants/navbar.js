@@ -1,8 +1,10 @@
 import React from "react";
+import {Route,BrowserRouter,Switch} from 'react-router-dom';
 import Football from "./Football";
 
 export default function Navbar(){
     return(
+        <BrowserRouter>
         <nav className="navbar navbar-expand-lg bg-body-tertiary">
             <div className="container-fluid">
                 <a className="navbar-brand" href="#">Navbar</a>
@@ -15,7 +17,7 @@ export default function Navbar(){
                         <a className="nav-link active" aria-current="page" href="#">Home</a>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link" href="../Football.js">Football</a>
+                        <a className="nav-link"><li><Link to='./Football'>Football</Link></li></a>
                     </li>
                     <li className="nav-item">
                         <a className="nav-link" href="#">Pricing</a>
@@ -27,5 +29,6 @@ export default function Navbar(){
                 </div>
             </div>
         </nav>
+        </BrowserRouter>
     )
 }
