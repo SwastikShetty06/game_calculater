@@ -1,5 +1,5 @@
 import React from "react";
-import {Route,BrowserRouter,Switch} from 'react-router-dom';
+import {BrowserRouter, Link} from 'react-router-dom';
 import Football from "./Football";
 
 export default function Navbar(){
