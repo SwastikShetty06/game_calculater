@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/game_calculater/static/css/main.f855e6bc.css",
-    "main.js": "/game_calculater/static/js/main.55db6aac.js",
+    "main.css": "/game_calculater/static/css/main.2351d7fe.css",
+    "main.js": "/game_calculater/static/js/main.5dab1de7.js",
     "static/js/453.61e2fefd.chunk.js": "/game_calculater/static/js/453.61e2fefd.chunk.js",
     "index.html": "/game_calculater/index.html",
-    "main.f855e6bc.css.map": "/game_calculater/static/css/main.f855e6bc.css.map",
-    "main.55db6aac.js.map": "/game_calculater/static/js/main.55db6aac.js.map",
+    "main.2351d7fe.css.map": "/game_calculater/static/css/main.2351d7fe.css.map",
+    "main.5dab1de7.js.map": "/game_calculater/static/js/main.5dab1de7.js.map",
     "453.61e2fefd.chunk.js.map": "/game_calculater/static/js/453.61e2fefd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f855e6bc.css",
-    "static/js/main.55db6aac.js"
+    "static/css/main.2351d7fe.css",
+    "static/js/main.5dab1de7.js"
   ]
 }
